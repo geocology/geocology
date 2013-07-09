@@ -1,7 +1,9 @@
 <!-- before the archive will show up it seems to be necessary to create a page called projects, but that page should be blank and there is no need to assign it to this template -->
     		<?php get_header(); ?>
             <div class="grid_5" id="topNavLinks">
-                <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>" title="go back to the home page of our site">home</a></span>
+                <h2>
+                    <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>" title="go back to the home page of our site">home</a></span>
+                </h2>
             </div>
         </div><!-- contactNav -->
         <div class="grid_12">
@@ -41,7 +43,7 @@
             wp_reset_query();
         ?>
         <div class="grid_12 navLinks">
-            <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>" title="go back to the home page of our site">home</a></span>
+            <span class="navLink">&larr; <a href="<?php bloginfo('site_url'); ?>" title="go back to the home page of our site">home</a></span>
             <span class="navLink"><a href="#top" title="jump back to the top of this page">top</a> &uarr;</span>
         </div>
 		<?php get_footer(); ?>

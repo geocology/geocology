@@ -1,3 +1,7 @@
+#404 {
+	font-size: 94px;
+	}
+
 @font-face {
     font-family: 'ChunkFiveRegular';
     src: url('fonts/chunk-webfont.eot');
@@ -23,14 +27,14 @@ body {
 	}
 	
 body,
-h3,
-#contactNav {
+h3 {
 	font-size: 16px;
 	line-height: 24px;
 }
 
 h1,
-h2 {
+h2,
+#contactNav {
     font-size: 18px;
 }
 
@@ -41,7 +45,7 @@ h3 {
 }
 	
 h1 {
-	font-weight: normal;
+	font-weight: bold;
 	}
 
 h1 {
@@ -51,7 +55,7 @@ h1 {
 }
 	
 h2 {
-	font-weight: bold;
+	font-weight: normal;
 	color: #66a5bf;
     margin-top: 0;
 	}
@@ -97,6 +101,7 @@ h1, h2, h3 {
 	}
 
 #title #research,
+#blurb,
 h3,
 #staff .meta,
 .contactDetailBullet,
@@ -252,7 +257,3 @@ img {
 object, embed {
     max-width: 100%;
 }
-
-#404 {
-	font-size: 94px;
-	}
