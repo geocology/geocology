@@ -223,7 +223,8 @@
                 </p>
             </div>
             <div class="grid_9 omega">
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;aq=&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=211+E+Georgia+St+%23105,+Vancouver,+Greater+Vancouver+Regional+District,+British+Columbia+V6A+1Z7,+Canada&amp;msa=0&amp;t=m&amp;msid=209097672507989927806.0004b0b52464e65fcd18e&amp;z=13&amp;output=embed"></iframe>
+				<iframe width='100%' height='400' frameBorder='0' src='http://a.tiles.mapbox.com/v3/hughstimson.map-ispdkxge.html#15/49.27680000000001/-123.09199999999998'></iframe>
+                <!-- iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;aq=&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=211+E+Georgia+St+%23105,+Vancouver,+Greater+Vancouver+Regional+District,+British+Columbia+V6A+1Z7,+Canada&amp;msa=0&amp;t=m&amp;msid=209097672507989927806.0004b0b52464e65fcd18e&amp;z=13&amp;output=embed"></iframe> -->
             </div>
         </div>
         <div class="grid_12 navLinks">
