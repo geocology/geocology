@@ -1,9 +1,7 @@
 <?php get_header(); ?>
 			<div class="grid_5" id="topNavLinks">
-				<h2>
-					<span class="navLink"><a href="<?php bloginfo('url'); ?>/#recentprojects" title="jump down to recent projects we've been working on" >recent projects</a> &darr;</span>
-					<span class="navLink"><a href="<?php bloginfo('url'); ?>/#about" title="jump down to some background about Geocology Research"> about us</a> &darr;</span>
-				</h2>
+				<span class="navLink"><a href="<?php bloginfo('url'); ?>/#recentprojects" title="jump down to recent projects we've been working on" >recent projects</a> &darr;</span>
+				<span class="navLink"><a href="<?php bloginfo('url'); ?>/#about" title="jump down to some background about Geocology Research"> about us</a> &darr;</span>
 			</div>
 		</div><!-- contactNav -->
         <div class="sectionBreak"> </div>
