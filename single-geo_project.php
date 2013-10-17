@@ -94,7 +94,7 @@
                     }
                 ?>
             </div>
-        <?
+        <?php
         // working from http://codex.wordpress.org/Function_Reference/wp_get_attachment_image#Display_all_images_as_a_list
             $args = array(
                 'post_type' => 'attachment',
