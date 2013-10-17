@@ -1,4 +1,4 @@
-**geocologyFixed Wordpress theme**
+**geocology Wordpress theme**
 
 Currently used on *geocology.ca*.
 

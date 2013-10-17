@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Hi Sherwin. I started using Columnal but the veiwport resizing was interacting weirdly with the featured image resizing, so I gave up on it and it's just a variant on 960gs fixed. But a responsive version may eventually happen. -->
 <head>
 	<title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
@@ -7,11 +6,12 @@
 	<meta name="description" content="A geoinformatics consultancy helping values-based organizations with analysis and communication." />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/vgs.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>css/bootstrap.css" type="text/css" media="screen" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
-	<script src="<?php bloginfo('template_url'); ?>/scripts/softscroll.js" type="text/javascript"></script>
+    <script src="<?php bloginfo('template_url'); ?>/scripts/bootstrap.js" type="text/javascript"></script>
+    <script src="<?php bloginfo('template_url'); ?>/scripts/softscroll.js" type="text/javascript"></script>
 	<script type='text/javascript'>
 		SoftScroll.showHash();
 		SoftScroll.noXScroll();
