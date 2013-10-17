@@ -7,9 +7,7 @@
                 if ( have_posts() ) : while ( have_posts() ) : the_post();
             ?>
             <div class="grid_5" id="topNavLinks">
-                <h2>
-                    <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>" title="go back to the home page of our site">home</a></span>
-                </h2>
+                <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>" title="go back to the home page of our site">home</a></span>
             </div>
         </div><!-- contactNav -->
         <div class="grid_12"><h1> </h1></div> <!-- shameful hack for vertical line & whitespace -->
