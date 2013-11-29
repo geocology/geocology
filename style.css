@@ -2,27 +2,27 @@
     font-family: 'ChunkFiveRegular';
     src: url('fonts/chunk-webfont.eot');
     src: url('fonts/chunk-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/chunk-webfont.woff') format('woff'),
-         url('fonts/chunk-webfont.ttf') format('truetype'),
-         url('fonts/chunk-webfont.svg#ChunkFiveRegular') format('svg');
+    url('fonts/chunk-webfont.woff') format('woff'),
+    url('fonts/chunk-webfont.ttf') format('truetype'),
+    url('fonts/chunk-webfont.svg#ChunkFiveRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
 body {
-	border-width: 6px 0 0 0;
-	border-style: solid; 
-	border-color: black;
+    border-width: 6px 0 0 0;
+    border-style: solid;
+    border-color: black;
     margin: 0 0 0 0;
     padding-bottom: 48px;
-	}
-	
+}
+
 body,
 h3,
 #contactNav {
-	font-size: 16px;
-	line-height: 24px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 h1,
@@ -33,29 +33,30 @@ h2 {
 h1,
 h2,
 h3 {
+    margin-top: 0;
     margin-bottom: 24px;
 }
-	
+
 h1 {
-	font-weight: normal;
-	}
+    font-weight: normal;
+}
 
 h1 {
     padding-top: 36px;
     margin-top: 36px;
     border-top: 1px solid #dddfe0;
 }
-	
+
 h2 {
-	font-weight: bold;
-	color: #66a5bf;
+    font-weight: bold;
+    color: #66a5bf;
     margin-top: 0;
-	}
-	
+}
+
 h3 {
-	font-weight: bold;
-	}
-	
+    font-weight: bold;
+}
+
 p {
     margin: 0 0 24px 0;
     word-wrap: break-word;
@@ -64,33 +65,36 @@ p {
 a,
 #phoneNumber,
 span.navLink {
-	color: #b58155
-	}
+    color: #b58155
+}
 
 span.navLink {
     margin-right: 16px;
 }
 
 a,
-a:hover {
-	text-decoration: none;
-	}
+a:hover,
+a:active,
+a:visited {
+    color: #b58155;
+    text-decoration: none;
+}
 
 a:hover {
-	border-bottom: 1px solid #b58155;
-	}
-	
+    border-bottom: 1px solid #b58155;
+}
+
 body,
 #title #research,
 h1, h2, h3 {
-	font-family:
-		'PT Sans', 
-		'Segoe UI Light',
-		'Helvetica Neue',
-		'Helvetica', 
-		arial,
-		sans-serif;
-	}
+    font-family:
+        'PT Sans',
+        'Segoe UI Light',
+        'Helvetica Neue',
+        'Helvetica',
+        arial,
+        sans-serif;
+}
 
 #title #research,
 h3,
@@ -98,64 +102,64 @@ h3,
 .contactDetailBullet,
 #summary,
 #projectMeta td.key {
-	color: #787c7d;
-	}
-	
+    color: #787c7d;
+}
+
 #banner {
-	margin-top: 0;
-	margin-bottom: 0px;
-	}
+    margin-top: 0;
+    margin-bottom: 0px;
+}
 
 #banner a:hover {
-	border-bottom: 0;
-	}
+    border-bottom: 0;
+}
 
 #title {
-	font-size: 70px;
-	line-height: 96px;
-	}
-	
+    font-size: 70px;
+    line-height: 96px;
+}
+
 
 #vanIsl {
-	display: inline;
-	margin-left: -27px;
-	margin-bottom: -15px;
-	margin-right: -12px;
-	}
-	
+    display: none;
+    margin-left: -27px;
+    margin-bottom: -15px;
+    margin-right: -12px;
+}
 
-#title #geocology {	
-	font-family: 'ChunkFiveRegular';
-	letter-spacing: -2px;
-	color: #476e2e;
-	}
-	
-#title #research {	
-	letter-spacing: -2px;
-	margin-left: -8px;
-	}
+
+#title #geocology {
+    font-family: 'ChunkFiveRegular';
+    letter-spacing: -2px;
+    color: #476e2e;
+}
+
+#title #research {
+    letter-spacing: -2px;
+    margin-left: -8px;
+}
 
 #title a#beta {
-	display: inline-block;
-	margin: 20px 0 0 -22px;
-	font-size: 18px;
-	height: 18px;
-	line-height: 18px;
-	vertical-align: top;
-	color: #66a5bf;
-	}
+    display: inline-block;
+    margin: 20px 0 0 -22px;
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: top;
+    color: #66a5bf;
+}
 
 #title a#beta:hover {
-	border-bottom: 1px solid #66a5bf;
-	}
-	
+    border-bottom: 1px solid #66a5bf;
+}
+
 #blurb {
-	margin-top: 32px;
+    margin-top: 32px;
 }
 
 #phoneNumber {
-	letter-spacing: -1px;
-	}
+    letter-spacing: -1px;
+}
 
 #topNavLinks h2 {
     margin-bottom: 0;
@@ -163,28 +167,28 @@ h3,
 }
 
 #projectDescription {
-	color: #595959;
-	}
-	
+    color: #595959;
+}
+
 #projectMeta {
-	margin-bottom: 24px;
-	}
-	
+    margin-bottom: 24px;
+}
+
 #projectMeta td.key{
-	text-align: right;
-	padding-right: 11px;
+    text-align: right;
+    padding-right: 11px;
     font-weight: bold;
-	}
+}
 
 #projectMeta td.partner {
-	font-style: italic;
-	}	
-	
+    font-style: italic;
+}
+
 #summary {
-	font-style: italic;
+    font-style: italic;
     text-align: justify;
     margin-bottom: 24px;
-	}
+}
 
 #summary p {
     display: inline;
@@ -196,36 +200,28 @@ h3,
 }
 
 .projectCard {
-	text-align: center;
-	margin-bottom: 48px;
-    height: 282px; /* so 1-line title don't break the grid */
-	}
+    text-align: center;
+    margin-bottom: 48px;
+    /* height: 282px; so 1-line title don't break the grid */
+}
 
 .projectThumb {
     margin-bottom: 20px;
 }
 
-#whatwedo,
-#partners,
-#staff,
-#location {
-	margin-bottom: 24px;
-	}
+.projectCardTitle {
+    display: inline-block;
+    height: 72px;
+}
 
 #staff h3 {
-	margin-bottom: 0;
-	}
-	
-#about #whatwedo,
-#about #partners,
-#about #staff {
-	margin-bottom: 24px;
-	}
+    margin-bottom: 0;
+}
 
 .navLinks {
-	margin-top: 24px;
-	text-align: right;
-	}
+    margin-top: 24px;
+    text-align: right;
+}
 
 #recentProjectsNavLinks {
     margin-top: 0;
@@ -235,7 +231,7 @@ a img {
     display: block;
     margin: 0 0 24px 0;
     padding: 0 0 0 0;
-	border: 0;
+    border: 0;
 }
 
 img {
@@ -250,5 +246,5 @@ object, embed {
 }
 
 #404 {
-	font-size: 94px;
-	}
+    font-size: 94px;
+}

@@ -6,9 +6,9 @@ if ( function_exists( 'add_theme_support' ) ) {
 }
 
 //http://wordpress.org/support/topic/360029
-add_image_size( 'project-thumbnail', 245, 217, true );
-add_image_size( 'project-medium', 530, 9999, false );
-add_image_size( 'project-big', 646, 9999, false );
+add_image_size( 'project-thumbnail', '375', '332', true );
+add_image_size( 'project-medium', '720', '720', false );
+add_image_size( 'project-big', '646', '9999', false );
 
 add_action( 'init', 'create_post_type' );
 function create_post_type() {
