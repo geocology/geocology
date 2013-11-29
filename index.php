@@ -118,7 +118,9 @@
                 endwhile;
                 wp_reset_query()
             ?>
-            <div class="grid_12 navLinks" id="recentProjectsNavLinks">
+        </div>
+        <div class="row">
+            <div class="col-md-12 navLinks" id="recentProjectsNavLinks">
                 <span class="navLink"><a href="#top" title="jump back to the top of this page">top</a> &uarr;</span> <span class="navLink"><a href="<?php bloginfo('url'); ?>/projects" title="go to a page with all of our projects">more projects</a> &rarr;</span>
             </div>
         </div>

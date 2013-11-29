@@ -7,14 +7,13 @@
 	<meta name="description" content="A geoinformatics consultancy helping values-based organizations with analysis and communication." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.custom.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
     <script src="<?php bloginfo('template_url'); ?>/scripts/jquery-1.10.2.js" type="text/javascript"></script>
     <script src="<?php bloginfo('template_url'); ?>/scripts/jquery.fittext.js" type="text/javascript"></script>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/jquery.quickfit.js" type="text/javascript"></script>
     <script src="<?php bloginfo('template_url'); ?>/scripts/bootstrap.js" type="text/javascript"></script>
     <script src="<?php bloginfo('template_url'); ?>/scripts/softscroll.js" type="text/javascript"></script>
 	<script type='text/javascript'>
