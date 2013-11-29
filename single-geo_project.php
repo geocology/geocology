@@ -116,11 +116,11 @@
                             ?>
                                 <div class="col-xs-6 projectThumb">
                             <?php
-                            $largeSrcArray = wp_get_attachment_image_src($attachment->ID, 'large');
-                            $largeUrl = $largeSrcArray[0];
-                            $thumbSrcArray = wp_get_attachment_image_src($attachment->ID, 'project-thumbnail');
-                            $thumbUrl = $thumbSrcArray[0];
-                            echo '<a href="'.$largeUrl.'"><img class="img-responsive" src="'.$thumbUrl.'"></a>';
+                                $largeSrcArray = wp_get_attachment_image_src($attachment->ID, 'large');
+                                $largeUrl = $largeSrcArray[0];
+                                $thumbSrcArray = wp_get_attachment_image_src($attachment->ID, 'project-thumbnail');
+                                $thumbUrl = $thumbSrcArray[0];
+                                echo '<a href="'.$largeUrl.'"><img class="img-responsive" src="'.$thumbUrl.'"></a>';
                             ?>
                                 </div>
                             <?php

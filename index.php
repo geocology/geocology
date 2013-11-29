@@ -1,7 +1,7 @@
                 <?php get_header(); ?>
                 <div class="col-md-5" id="topNavLinks">
-                    <span class="navLink"><a href="<?php bloginfo('url'); ?>/#recentprojects" title="jump down to recent projects we've been working on" >recent projects</a> &darr;</span>
-                    <span class="navLink"><a href="<?php bloginfo('url'); ?>/#about" title="jump down to some background about Geocology Research"> about us</a> &darr;</span>
+                    <span class="navLink"><a href="<?php bloginfo('url'); ?>/#about" title="jump down to some background about Geocology Research">about</a> &darr;</span>
+                    <span class="navLink"><a href="<?php bloginfo('url'); ?>/projects" title="go to a page with all of our projects"> projects</a> &rarr;</span>
                 </div>
             </div><!-- contactNav -->
         </div><!-- .row -->
@@ -110,9 +110,11 @@
                 }
                 ?>
                 </a>
-                <a href="<?php the_permalink(); ?>" title="<?php echo $excerpt ?>">
-                    <?php the_title(); ?>
-                </a>
+                <div class="projectCardTitle">
+                    <a href="<?php the_permalink(); ?>" title="<?php echo $excerpt ?>">
+                        <?php the_title(); ?>
+                    </a>
+                </div>
             </div>
             <?php
                 endwhile;

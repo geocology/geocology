@@ -107,7 +107,7 @@ h3,
 
 #banner {
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 #banner a:hover {
@@ -155,6 +155,22 @@ h3,
 
 #blurb {
     margin-top: 32px;
+}
+
+/* Tweak the header layout once it snaps to 1-column layout
+   This presumably isn't actually the best way to handle this
+   because if I change the column classes in the HTML
+   I have to remember to reflect those changes here. */
+
+@media (max-width: 992px) {
+    #blurb {
+        margin-top: 0;
+    }
+
+    .contactDetail,
+    #topNavLinks {
+        margin-top: 12px;
+    }
 }
 
 #phoneNumber {
