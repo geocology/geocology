@@ -31,74 +31,79 @@
                     the_title();
                     ?>
                 </h2>
-                <div id="projectMeta">
-                    <table>
+                <div class="row">
+                    <div id="projectMeta" class="col-md-5 col-sm-4">
+                        <table>
+                            <?php
+                            $for = get_post_meta($post->ID, 'for', true);
+                            if (!empty($for)) {
+                                echo '
+                                <tr>
+                                    <td class="key">for</td>
+                                    <td class="partner">';
+                                echo $for;
+                                echo '</td>
+                                </tr>';
+                            }
+                            $with = get_post_meta($post->ID, 'with', true);
+                            if (!empty($with)) {
+                                echo '
+                                <tr>
+                                    <td class="key">with</td>
+                                    <td class="partner">';
+                                echo $with;
+                                echo '</td>
+                                </tr>';
+                            }
+                            $and = get_post_meta($post->ID, 'and', true);
+                            if (!empty($and)) {
+                                echo '
+                                <tr>
+                                    <td class="key">and</td>
+                                    <td class="partner">';
+                                echo $and;
+                                echo '</td>
+                                </tr>';
+                            }
+                            ?>
+                            <tr>
+                                <td class="key">
+                                    status
+                                </td>
+                                <td>
+                                    <?php
+                                    $terms = wp_get_object_terms( $post->ID, 'status');
+                                    foreach ( $terms as $term ) {
+                                        echo $term->name;
+                                    }
+                                    ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="key">
+                                    as of
+                                </td>
+                                <td>
+                                    <?php echo get_the_date('F Y'); ?>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="summary" class="col-md-7 col-sm-8">
+                        <span class="key">summary</span>
+                        <span id="summaryText">
+                            <?php the_excerpt(); ?>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="description" class="col-md-12">
                         <?php
-                        $for = get_post_meta($post->ID, 'for', true);
-                        if (!empty($for)) {
-                            echo '
-                            <tr>
-                                <td class="key">for</td>
-                                <td class="partner">';
-                            echo $for;
-                            echo '</td>
-                            </tr>';
-                        }
-                        $with = get_post_meta($post->ID, 'with', true);
-                        if (!empty($with)) {
-                            echo '
-                            <tr>
-                                <td class="key">with</td>
-                                <td class="partner">';
-                            echo $with;
-                            echo '</td>
-                            </tr>';
-                        }
-                        $and = get_post_meta($post->ID, 'and', true);
-                        if (!empty($and)) {
-                            echo '
-                            <tr>
-                                <td class="key">and</td>
-                                <td class="partner">';
-                            echo $and;
-                            echo '</td>
-                            </tr>';
-                        }
+                            the_content();
+                            edit_post_link();
                         ?>
-                        <tr>
-                            <td class="key">
-                                status
-                            </td>
-                            <td>
-                                <?php
-                                $terms = wp_get_object_terms( $post->ID, 'status');
-                                foreach ( $terms as $term ) {
-                                    echo $term->name;
-                                }
-                                ?>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="key">
-                                as of
-                            </td>
-                            <td>
-                                <?php echo get_the_date('F Y'); ?>
-                            </td>
-                        </tr>
-                    </table>
+                    </div>
                 </div>
-                <div id="summary">
-                    <?php
-                    the_excerpt();
-                    ?>
-                </div>
-                <div id="description">
-                    <?php
-                    the_content();
-                    ?>
-                </div>
-                <?php edit_post_link(); ?>
             </div>
             <div class="col-md-6 col-xs-12 pull-right">
                 <div class="row">
@@ -111,7 +116,7 @@
                             'post_parent' => $post->ID
                         );
                         $attachments = get_posts( $args );
-                        // array_pop($attachments); // drop the last attachment in the array, becauase it always seems to be the main image which we don't want to repeat
+                         array_pop($attachments); // drop the last attachment in the array, becauase it always seems to be the main image which we don't want to repeat
                         foreach ( $attachments as $attachment ) {
                             ?>
                                 <div class="col-xs-6 projectThumb">

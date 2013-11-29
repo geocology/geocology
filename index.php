@@ -176,7 +176,7 @@
                         </a>
                     </div>
                     <div class="col-md-12">
-                        We love working with these people. These are awesome people.
+                        <p>We love working with these people. These are awesome people.</p>
                     </div>
                 </div>
             </div>
@@ -185,55 +185,53 @@
             <div class="col-md-12">
                 <h2>who we are</h2>
             </div>
-            <div class="col-md-6 col-sm-12 "> <!-- Hugh -->
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-5"> <!-- photo -->
+                <img class='img-responsive headshot' src="<?php bloginfo('template_url'); ?>/images/hughAuric3.jpg" />
+            </div> <!-- photo -->
+            <div class="col-md-2 col-sm-3 col-xs-7"> <!-- deets -->
+                <h3>Hugh Stimson</h3>
+                <p>
+                    Principal<br />
+                    <br />
+                    <a href="mailto:hugh@geocology.ca">hugh@geocology.ca</a><br />
+                    <a href="http://twitter.com/hughstimson">@hughstimson</a><br />
+                    604.440.1989<br />
+                </p>
+            </div> <!-- deets -->
+            <div class="col-md-7 col-sm-6 col-xs-12"> <!-- bio -->
+                <p>Hugh studied ecology at the University of Guelph before working in conservation GIS and remote sensing at UC Davis and the Smithsonian Institution.</p>
+                <p>He combined his interests in ecology, complex systems theory and geospatial methods in a Masters thesis at the University of Michigan studying dryland vegetation patterning.</p>
+                <p>Hugh used to like motorcycles and deserts but now likes camper vans and fjords. He has planted over a million trees by hand. True fact.</p>
+            </div> <!-- bio -->
+        </div>
+ <!--
+            <div class="col-md-6 col-sm-12 ">
                 <div class="row">
-                    <div class="meta col-md-6 col-sm-12"> <!-- meta -->
+                    <div class="meta col-md-6 col-sm-12">
                         <div class="row">
-                            <div class="col-md-12 col-xs-6"> <!-- photo -->
-                                <img class='img-responsive' src="<?php bloginfo('template_url'); ?>/images/hughAuric3.jpg" />
-                            </div> <!-- photo -->
-                            <div class="col-md-12 col-xs-6"> <!-- deets -->
-                                <h3>Hugh Stimson</h3>
-                                environmental geographer<br />
-                                <br />
-                                <a href="mailto:hugh@geocology.ca">hugh@geocology.ca</a><br />
-                                <a href="http://twitter.com/hughstimson">@hughstimson</a><br />
-                                604.440.1989<br />
-                            </div> <!-- deets -->
-                        </div>
-                    </div> <!-- meta -->
-                    <div class="col-md-6 col-sm-12"> <!-- bio -->
-                        <p>Hugh studied ecology at the University of Guelph before working in conservation GIS and remote sensing at UC Davis and the Smithsonian Institution.</p>
-                        <p>He combined his interests in ecology, complex systems theory and geospatial methods in a Masters thesis at the University of Michigan studying dryland vegetation patterning.</p>
-                        <p>Hugh used to like motorcycles and deserts but now likes camper vans and fjords. He has planted over a million trees by hand. True fact.</p>
-                    </div> <!-- bio -->
-                </div>
-            </div> <!-- Hugh -->
-            <div class="col-md-6 col-sm-12 "> <!-- Jane -->
-                <div class="row">
-                    <div class="meta col-md-6 col-sm-12"> <!-- meta -->
-                        <div class="row">
-                            <div class="col-md-12 col-xs-6"> <!-- photo -->
+                            <div class="col-md-12 col-xs-6">
                                 <img class='img-responsive' src="<?php bloginfo('template_url'); ?>/images/janeBarnacles.jpg" />
-                            </div> <!-- photo -->
-                            <div class="col-md-12 col-xs-6"> <!-- deets -->
+                            </div>
+                            <div class="col-md-12 col-xs-6">
                                 <h3>Jane Boles</h3>
                                 human geographer<br />
                                 <br />
                                 <a href="mailto:jane@geocology.ca">jane@geocology.ca</a><br />
                                 <a href="https://twitter.com/bolesfin">@bolesfin</a><br />
                                 604.603.6764
-                            </div> <!-- deets -->
+                            </div>
                         </div>
-                    </div> <!-- meta -->
-                    <div class="col-md-6 col-sm-12"> <!-- bio -->
+                    </div>
+                    <div class="col-md-6 col-sm-12">
                         <p>Jane works with forest dependent communities on climate change and participatory natural resource governance.</p>
                         <p>For the last several years she has worked in the Congo basin leveraging REDD and other carbon programs towards climate change mitigation/adaptation and livelihood enhancement.</p>
                         <p>Jane studied Geography and Political Science at Concordia University, and is endlessly grateful to do work that involves good measures of reading, writing, talking, and stomping around in the muck.</p>
-                    </div> <!-- bio -->
+                    </div>
                 </div>
-            </div> <!-- Jane -->
-        </div>
+            </div>
+-->
         <div class="row">
             <div class="col-md-12" id="location">
                 <h2>where we are</h2>
