@@ -11,6 +11,20 @@
         <div class="row"><div class="col-md-12"><h1></h1></div></div>
 <!--        <div class="grid_12"><h1> </h1></div> --> <!-- shameful hack for vertical line & whitespace -->
         <div class="row">
+            <div class="col-md-6 pull-right" id="projectImage">
+                <?php
+                if ( has_post_thumbnail() ) {
+                    $img_args = array(
+                        'title'	=> 'click to enlarge',
+                        'class' => 'img-responsive'
+                    );
+                    $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
+                    echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" >';
+                    the_post_thumbnail('project-medium', $img_args);
+                    echo '</a>';
+                }
+                ?>
+            </div>
             <div class="col-md-6">
                 <h2>
                     <?php
@@ -86,50 +100,37 @@
                 </div>
                 <?php edit_post_link(); ?>
             </div>
-            <div class="col-md-6">
-                <div id="projectImage">
+            <div class="col-md-6 col-xs-12 pull-right">
+                <div class="row">
                     <?php
-                    if ( has_post_thumbnail() ) {
-                        $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
-                        echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" >';
-                        the_post_thumbnail('project-medium');
-                        echo '</a>';
-                    }
+                        // working from http://codex.wordpress.org/Function_Reference/wp_get_attachment_image#Display_all_images_as_a_list
+                        $args = array(
+                            'post_type' => 'attachment',
+                            'numberposts' => -1,
+                            'post_status' => null,
+                            'post_parent' => $post->ID
+                        );
+                        $attachments = get_posts( $args );
+                        // array_pop($attachments); // drop the last attachment in the array, becauase it always seems to be the main image which we don't want to repeat
+                        foreach ( $attachments as $attachment ) {
+                            ?>
+                                <div class="col-xs-6 projectThumb">
+                            <?php
+                            $largeSrcArray = wp_get_attachment_image_src($attachment->ID, 'large');
+                            $largeUrl = $largeSrcArray[0];
+                            $thumbSrcArray = wp_get_attachment_image_src($attachment->ID, 'project-thumbnail');
+                            $thumbUrl = $thumbSrcArray[0];
+                            echo '<a href="'.$largeUrl.'"><img class="img-responsive" src="'.$thumbUrl.'"></a>';
+                            ?>
+                                </div>
+                            <?php
+                        }
                     ?>
                 </div>
-                <?php
-                // working from http://codex.wordpress.org/Function_Reference/wp_get_attachment_image#Display_all_images_as_a_list
-                $args = array(
-                    'post_type' => 'attachment',
-                    'numberposts' => -1,
-                    'post_status' => null,
-                    'post_parent' => $post->ID
-                );
-                $attachments = get_posts( $args );
-                array_pop($attachments); // drop the last attachment in the array, becauase it always seems to be the main image which we don't want to repeat
-                $gridPosition = 'first';
-                foreach ( $attachments as $attachment ) {
-                    if ($gridPosition == 'first') {
-                        echo '<div class="grid_3 alpha projectThumb">';
-                        $gridPosition = 'last';
-                    } elseif ($gridPosition == 'last') {
-                        echo '<div class="grid_3 omega projectThumb">';
-                        $gridPosition = 'first';
-                    }
-                    $largeSrcArray = wp_get_attachment_image_src($attachment->ID, 'large');
-                    $largeUrl = $largeSrcArray[0];
-                    $thumbSrcArray = wp_get_attachment_image_src($attachment->ID, 'thumb');
-                    $thumbUrl = $thumbSrcArray[0];
-                    $thumbWidth = $thumbSrcArray[1];
-                    $thumbHeight = $thumbSrcArray[2];
-                    echo '<a href="'.$largeUrl.'"><img width="'.$thumbWidth.'" height="'.$thumbHeight.'" src="'.$thumbUrl.'"></a>';
-                    echo '</div>';
-                }
-                ?>
             </div>
         </div>
         <div class="row">
-            <div class="grid_12 navLinks">
+            <div class="col-md-12 navLinks">
                 <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>" title="go back to the home page of our site">home</a></span>
                 <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>/projects" title="go to a page with all of our projects">projects</a></span>
                 <span class="navLink"><a href="#top" title="jump back to the top of this page">top</a> &uarr;</span>
