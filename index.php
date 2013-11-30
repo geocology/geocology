@@ -253,7 +253,7 @@
                 </p>
             </div>
             <div class="col-sm-9">
-                <iframe width='100%' height='400' frameBorder='0' src='http://a.tiles.mapbox.com/v3/hughstimson.map-ispdkxge.html#12/49.27321610028051/-123.13697528076172'></iframe>
+                <iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/hughstimson.gdnn42on.html?secure=1#12/49.27321610028051/-123.13697528076172'></iframe>
             </div>
         </div>
         <div class="row">
