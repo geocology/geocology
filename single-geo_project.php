@@ -15,11 +15,12 @@
                 <?php
                 if ( has_post_thumbnail() ) {
                     $img_args = array(
-                        'title'	=> 'click to enlarge',
                         'class' => 'img-responsive'
                     );
                     $large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
-                    echo '<a href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" >';
+                    $meta = wp_prepare_attachment_for_js($attachment->ID);
+                    $caption = $meta['caption'];
+                    echo '<a  rel="lightbox" title="' .$caption. '" href="' . $large_image_url[0] . '" title="' . the_title_attribute('echo=0') . '" >';
                     the_post_thumbnail('project-medium', $img_args);
                     echo '</a>';
                 }
@@ -125,7 +126,9 @@
                                 $largeUrl = $largeSrcArray[0];
                                 $thumbSrcArray = wp_get_attachment_image_src($attachment->ID, 'project-thumbnail');
                                 $thumbUrl = $thumbSrcArray[0];
-                                echo '<a href="'.$largeUrl.'"><img class="img-responsive" src="'.$thumbUrl.'"></a>';
+                                $meta = wp_prepare_attachment_for_js($attachment->ID);
+                                $caption = $meta['caption'];
+                                echo '<a rel="lightbox" title="' .$caption. '" href="'.$largeUrl.'"><img class="img-responsive" src="'.$thumbUrl.'"></a>';  // The rel="lightbox" attribute seems to be needed for most lightbox plugins.
                             ?>
                                 </div>
                             <?php
