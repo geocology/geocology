@@ -265,6 +265,10 @@ img {
     border-radius: 2px;
 }
 
+ul,ol {
+    margin-bottom: 24px;
+}
+
 object, embed {
     max-width: 100%;
 }
