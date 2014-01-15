@@ -12,6 +12,10 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
+    <!--[if lt IE 9]>
+    <script src="<?php bloginfo('template_url'); ?>/scripts/html5shiv.js" type="text/javascript"></script>
+    <script src="<?php bloginfo('template_url'); ?>/scripts/respond.min.js" type="text/javascript"></script>
+    <![endif]-->
     <script src="<?php bloginfo('template_url'); ?>/scripts/jquery-1.10.2.js" type="text/javascript"></script>
     <script src="<?php bloginfo('template_url'); ?>/scripts/jquery.fittext.js" type="text/javascript"></script>
     <script src="<?php bloginfo('template_url'); ?>/scripts/bootstrap.js" type="text/javascript"></script>
@@ -40,10 +44,10 @@
         <div class="row">
             <div id="banner">
                 <div class="col-md-7" id="title">
-<!--                    <a href="--><?php //bloginfo('url'); ?><!--">-->
+                    <a href="<?php bloginfo('url'); ?>">
 <!--                         <object id="vanIsl" type="image/svg+xml" data="--><?php //bloginfo('template_url'); ?><!--\images\vanisl.svg" width="32" height="44"><img id="vanIsl" src='--><?php //bloginfo('template_url'); ?><!--\images\vanisl.png' /></object>-->
                         <span id="geocology">Geocology</span> <span id="research">research</span>
-<!--                    </a>-->
+                    </a>
                     <!-- <a id='beta' href="<?php bloginfo('url'); ?>/beta" title="testing our new site">beta!</a> -->
                 </div>
                 <div class="col-md-5" id="blurb">
