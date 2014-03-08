@@ -1,4 +1,3 @@
-<!-- before the archive will show up it seems to be necessary to create a page called projects, but that page should be blank and there is no need to assign it to this template -->
                 <?php get_header(); ?>
                 <div class="col-md-5" id="topNavLinks">
                     <span class="navLink">&larr; <a href="<?php bloginfo('url'); ?>" title="go back to the home page of our site">home</a></span>
