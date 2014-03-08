@@ -255,7 +255,7 @@ a img {
     display: block;
     margin: 0 0 24px 0;
     padding: 0 0 0 0;
-    border: 0;
+    border: 1px solid #e0e0e0;
 }
 
 img {
@@ -263,6 +263,10 @@ img {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
+}
+
+img.partnerLogo {
+    border: 0;
 }
 
 ul,ol {

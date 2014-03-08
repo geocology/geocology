@@ -147,32 +147,32 @@
                 <div class="row">
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://davidsuzuki.org" title="link to the David Suzuki Foundation website">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/suzuki150x74.png" />
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/suzuki150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://dogwoodinitiative.org" title="link to the Dogwood Initiative website">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/dogwood150x74.png" />
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/dogwood150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://www.elizabethmay.ca" title="link to the Elizabeth May campaign website">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/gpc150x74.png" />
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/gpc150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://geomemes.com" title="link to the Geomemes Research website">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/geomemes150x74.png" />
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/geomemes150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://echotrack.com" title="link to the Echotrack Inc website">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/echotrack150x74.png" />
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/echotrack150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://www.mcallister-research.com" title="link to the McCallister Opinion Research website">
-                            <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/images/mcallister150x74.png" />
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/mcallister150x74.png" />
                         </a>
                     </div>
                     <div class="col-md-12">
