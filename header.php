@@ -12,7 +12,9 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
+    <!--[if lt IE 9]>
     <script src="<?php bloginfo('template_url'); ?>/scripts/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
     <script src="<?php bloginfo('template_url'); ?>/scripts/respond.min.js" type="text/javascript"></script>
     <script src="<?php bloginfo('template_url'); ?>/scripts/jquery-1.10.2.js" type="text/javascript"></script>
     <script src="<?php bloginfo('template_url'); ?>/scripts/jquery.fittext.js" type="text/javascript"></script>
