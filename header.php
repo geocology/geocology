@@ -12,32 +12,6 @@
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<?php wp_head(); ?>
-    <!--[if lt IE 9]>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/html5shiv.js" type="text/javascript"></script>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/respond.min.js" type="text/javascript"></script>
-    <![endif]-->
-    <script src="<?php bloginfo('template_url'); ?>/scripts/jquery-1.10.2.js" type="text/javascript"></script>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/jquery.fittext.js" type="text/javascript"></script>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/bootstrap.js" type="text/javascript"></script>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/softscroll.js" type="text/javascript"></script>
-	<script type='text/javascript'>
-		SoftScroll.showHash();
-		SoftScroll.noXScroll();
-	</script>
-    <script src="<?php bloginfo('template_url'); ?>/scripts/geocology.js" type='text/javascript'></script>
-	<script type="text/javascript"><!-- google analytics -->
-
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-30580360-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-
-	</script>
 </head>
 <body>
     <div class="container" id="top">
@@ -63,5 +37,5 @@
                     <span id="phoneNumber">604-440-1989</span>
                     <span class="contactDetailBullet">&bull;</span>
                     <!-- <a href="http://twitter.com/geocology">@geocology</a> -->
-                    <a href="http://maps.google.com/maps?q=211+East+Georgia+Street,+Vancouver,+BC,+Canada&hl=en&ll=49.278576,-123.099434&spn=0.001904,0.009645&sll=49.278649,-123.099372&layer=c&cbp=11,347.66,,0,7.21&cbll=49.278576,-123.099434&hnear=211+E+Georgia+St,+Vancouver,+Greater+Vancouver+Regional+District,+British+Columbia+V6A+1Z7,+Canada&t=m&z=17&panoid=1T3bgakrFvhAwdCdpRpr8Q">105-211 E Georgia St Vancouver BC V6A1Z6</a>
+                    <a href="https://www.google.ca/maps/place/1682+W+7th+Ave/@49.265308,-123.1426192,17z/data=!3m1!4b1!4m2!3m1!1s0x548673b7fd86215f:0x955cb7395d777cba">205-1682 W 7th Ave Vancouver BC V5J4S6</a>
                 </div>
