@@ -238,14 +238,13 @@
             </div>
             <div class="col-sm-3">
                 <p>
-                    East Vancouver.<br />
-                    Chinatown counts as East Van right?
+                    Lovely Kitsilano in beautiful Vancouver
                 </p>
                 <p>
-                    <a href="http://maps.google.com/maps?q=211+East+Georgia+Street,+Vancouver,+BC,+Canada&hl=en&ll=49.278576,-123.099434&spn=0.001904,0.009645&sll=49.278649,-123.099372&layer=c&cbp=11,347.66,,0,7.21&cbll=49.278576,-123.099434&hnear=211+E+Georgia+St,+Vancouver,+Greater+Vancouver+Regional+District,+British+Columbia+V6A+1Z7,+Canada&t=m&z=17&panoid=1T3bgakrFvhAwdCdpRpr8Q">
-                        Suite 105 - 211 East Georgia St<br />
+                    <a href="https://www.google.ca/maps/place/1682+W+7th+Ave/@49.265308,-123.1426192,17z/data=!3m1!4b1!4m2!3m1!1s0x548673b7fd86215f:0x955cb7395d777cba">
+                        205-1682 W 7th Ave<br />
                         Vancouver BC Canada<br />
-                        V6A 1Z6
+                        V5J4S
                     </a>
                 </p>
                 <p>
