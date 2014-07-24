@@ -37,5 +37,5 @@
                     <span id="phoneNumber">604-440-1989</span>
                     <span class="contactDetailBullet">&bull;</span>
                     <!-- <a href="http://twitter.com/geocology">@geocology</a> -->
-                    <a href="https://www.google.ca/maps/place/1682+W+7th+Ave/@49.265308,-123.1426192,17z/data=!3m1!4b1!4m2!3m1!1s0x548673b7fd86215f:0x955cb7395d777cba">205-1682 W 7th Ave Vancouver BC V5J4S6</a>
+                    <a href="https://www.google.ca/maps/place/1682+W+7th+Ave/@49.265308,-123.1426192,17z/data=!3m1!4b1!4m2!3m1!1s0x548673b7fd86215f:0x955cb7395d777cba">205-1682 W 7th Ave, Vancouver BC V6J 4S6</a>
                 </div>
