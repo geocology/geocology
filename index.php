@@ -238,7 +238,7 @@
             </div>
             <div class="col-sm-3">
                 <p>
-                    Lovely Kitsilano in beautiful Vancouver
+                    Lovely Kitsilano in majestic Vancouver.
                 </p>
                 <p>
                     <a href="https://www.google.ca/maps/place/1682+W+7th+Ave/@49.265308,-123.1426192,17z/data=!3m1!4b1!4m2!3m1!1s0x548673b7fd86215f:0x955cb7395d777cba">
