@@ -133,10 +133,10 @@
             <div class="col-sm-6" id="whatwedo">
                 <h2>what we do</h2>
                 <p>
-                    Geocology provides GIS and informatics capacity to environmental and community organizations that don't have that capacity in-house.
+                    Geocology provides spatial informatics and geodesign capacity to environmental and community organizations that don't have it in-house.
                 </p>
                 <p>
-                    We combine technical skills like GIS, database  and web with background in ecology, outreach, communications and policy.
+                    We combine technical skills like GIS, database, and coding with background in communications and science.
                 </p>
                 <p>
                     Our goal is to become a shared resource of best practices and repeatable experience that Vancouver and coastal area organizations can collectively draw on.
@@ -201,7 +201,7 @@
                 </p>
             </div> <!-- deets -->
             <div class="col-md-7 col-sm-6 col-xs-12"> <!-- bio -->
-                <p>Hugh started out studying spatial ecology, which led to remote sensing, complex systems theory, environmental informatics, and human geography at various labs in California, Virginia and Michigan. Ontario was home, now it's East Vancouver.</p>
+                <p>Hugh started out studying spatial ecology, which led to remote sensing, environmental informatics, complex systems theory, and human geography at various labs in California, Virginia and Michigan. Ontario was home, now it's East Vancouver.</p>
                 <p>Hugh has been building things with code since grade 5, and has lately been working on web platforms and crafting interactive maps and interfaces.</p>
                 <p>Hugh used to like motorcycles and deserts but now likes camper vans and fjords. He has planted over a million trees by hand. True fact.</p>
             </div> <!-- bio -->
