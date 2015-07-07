@@ -147,32 +147,32 @@
                 <div class="row">
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://davidsuzuki.org" title="link to the David Suzuki Foundation website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/suzuki150x74.png" />
+                            <img class="img-responsive partnerLogo" alt="David Suzuki Foundation logo" src="<?php bloginfo('template_url'); ?>/images/suzuki150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://dogwoodinitiative.org" title="link to the Dogwood Initiative website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/dogwood150x74.png" />
+                            <img class="img-responsive partnerLogo" alt="Dogwood Initiative logo"  src="<?php bloginfo('template_url'); ?>/images/dogwood150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://www.elizabethmay.ca" title="link to the Elizabeth May campaign website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/gpc150x74.png" />
+                            <img class="img-responsive partnerLogo" alt="Green Party of Canada logo" src="<?php bloginfo('template_url'); ?>/images/gpc150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://bcnpha.ca/" title="link to the BC Non-Profit Housing Association website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/bcnpha150x74.png" />
+                            <img class="img-responsive partnerLogo" alt="BC Non-Profit Housing Association logo"  src="<?php bloginfo('template_url'); ?>/images/bcnpha150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="http://thetyee.ca" title="link to The Tyee online new magazine">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/thetyee150x74.png" />
+                            <img class="img-responsive partnerLogo" alt="The Tyee logo" src="<?php bloginfo('template_url'); ?>/images/thetyee150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <a href="//www.placespeak.com" title="link to the PlaceSpeak online consultation website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/placespeak150x74.png" />
+                            <img class="img-responsive partnerLogo" alt="PlaceSpeak logo" src="<?php bloginfo('template_url'); ?>/images/placespeak150x74.png" />
                         </a>
                     </div>
                     <div class="col-md-12">
@@ -202,7 +202,7 @@
             </div> <!-- deets -->
             <div class="col-md-7 col-sm-6 col-xs-12"> <!-- bio -->
                 <p>Hugh started out studying spatial ecology, which led to remote sensing, environmental informatics, complex systems theory, and human geography at various labs in California, Virginia and Michigan. Ontario was home, now it's East Vancouver.</p>
-                <p>Hugh has been building things with code since grade 5, and has lately been working on web platforms and crafting interactive maps and interfaces.</p>
+                <p>Hugh has been building things with code since grade 5, and has lately been working on web platforms and crafting interactive maps and online interfaces.</p>
                 <p>Hugh used to like motorcycles and deserts but now likes camper vans and fjords. He has planted over a million trees by hand. True fact.</p>
             </div> <!-- bio -->
         </div>
