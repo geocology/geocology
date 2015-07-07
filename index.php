@@ -201,8 +201,8 @@
                 </p>
             </div> <!-- deets -->
             <div class="col-md-7 col-sm-6 col-xs-12"> <!-- bio -->
-                <p>Hugh studied ecology at the University of Guelph before working in conservation GIS and remote sensing at UC Davis and the Smithsonian Institution.</p>
-                <p>He combined his interests in ecology, complex systems theory and geospatial methods in a Masters thesis at the University of Michigan studying dryland vegetation patterning.</p>
+                <p>Hugh started out studying spatial ecology, which led to remote sensing, complex systems theory, environmental informatics, and human geography at various labs in California, Virginia and Michigan. Ontario was home, now it's East Vancouver.</p>
+                <p>Hugh has been building things with code since grade 5, and has lately been working on web platforms and crafting interactive maps and interfaces.</p>
                 <p>Hugh used to like motorcycles and deserts but now likes camper vans and fjords. He has planted over a million trees by hand. True fact.</p>
             </div> <!-- bio -->
         </div>
