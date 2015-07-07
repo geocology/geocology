@@ -161,8 +161,8 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
-                        <a href="http://geomemes.com" title="link to the Geomemes Research website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/geomemes150x74.png" />
+                        <a href="http://bcnpha.ca/" title="link to the BC Non-Profit Housing Association website">
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/bcnpha150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
@@ -171,8 +171,8 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
-                        <a href="http://www.mcallister-research.com" title="link to the McCallister Opinion Research website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/mcallister150x74.png" />
+                        <a href="//www.placespeak.com" title="link to the PlaceSpeak online consultation website">
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/placespeak150x74.png" />
                         </a>
                     </div>
                     <div class="col-md-12">
