@@ -175,6 +175,8 @@
                             <img class="img-responsive partnerLogo" alt="PlaceSpeak logo" src="<?php bloginfo('template_url'); ?>/images/placespeak150x74.png" />
                         </a>
                     </div>
+                </div>
+                <div class="row">
                     <div class="col-md-12">
                         <p>We love working with these people. These are awesome people.</p>
                     </div>
