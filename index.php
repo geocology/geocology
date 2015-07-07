@@ -136,7 +136,7 @@
                     Geocology provides spatial informatics and geodesign capacity to environmental and community organizations that don't have it in-house.
                 </p>
                 <p>
-                    We combine technical skills like GIS, database, and coding with background in communications and science.
+                    We combine technical skills like GIS, database, and coding with experience in communications and science.
                 </p>
                 <p>
                     Our goal is to become a shared resource of best practices and repeatable experience that Vancouver and coastal area organizations can collectively draw on.
@@ -166,8 +166,8 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
-                        <a href="http://echotrack.com" title="link to the Echotrack Inc website">
-                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/echotrack150x74.png" />
+                        <a href="http://thetyee.ca" title="link to The Tyee online new magazine">
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/thetyee150x74.png" />
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
