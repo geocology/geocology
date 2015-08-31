@@ -238,6 +238,10 @@ h3,
     margin-bottom: 0;
 }
 
+.row.bio {
+    margin-bottom: 24px;
+}
+
 img.headshot {
     margin-bottom: 24px;
 }

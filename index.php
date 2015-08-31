@@ -196,7 +196,6 @@
                 <h3>Hugh Stimson</h3>
                 <p>
                     Spatial developer<br />
-                    <br />
                     <a href="mailto:hugh@geocology.ca">hugh@geocology.ca</a><br />
                     <a href="http://twitter.com/hughstimson">@hughstimson</a><br />
                     604.440.1989<br />
@@ -216,7 +215,6 @@
                 <h3>Adam Valair</h3>
                 <p>
                     GIS programmer<br />
-                    <br />
                     <a href="mailto:hugh@geocology.ca">adam@geocology.ca</a><br />
                 </p>
             </div> <!-- deets -->
