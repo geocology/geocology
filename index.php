@@ -188,14 +188,14 @@
                 <h2>who we are</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row bio">
             <div class="col-md-3 col-sm-3 col-xs-5"> <!-- photo -->
-                <img class='img-responsive headshot' src="<?php bloginfo('template_url'); ?>/images/hughAuric3.jpg" />
+                <img class='img-responsive headshot' src="<?php bloginfo('template_url'); ?>/images/hugh.jpg" />
             </div> <!-- photo -->
             <div class="col-md-2 col-sm-3 col-xs-7"> <!-- deets -->
                 <h3>Hugh Stimson</h3>
                 <p>
-                    Principal<br />
+                    Spatial developer<br />
                     <br />
                     <a href="mailto:hugh@geocology.ca">hugh@geocology.ca</a><br />
                     <a href="http://twitter.com/hughstimson">@hughstimson</a><br />
@@ -206,6 +206,24 @@
                 <p>Hugh started out studying spatial ecology, which led to remote sensing, environmental informatics, complex systems theory, and human geography at various labs in California, Virginia and Michigan. Ontario was home, now it's East Vancouver.</p>
                 <p>Hugh has been building things with code since grade 5, and has lately been working on web platforms and crafting interactive maps and online interfaces.</p>
                 <p>Hugh used to like motorcycles and deserts but now likes camper vans and fjords. He has planted over a million trees by hand. True fact.</p>
+            </div> <!-- bio -->
+        </div>
+        <div class="row bio">
+            <div class="col-md-3 col-sm-3 col-xs-5"> <!-- photo -->
+                <img class='img-responsive headshot' src="<?php bloginfo('template_url'); ?>/images/adam.jpg" />
+            </div> <!-- photo -->
+            <div class="col-md-2 col-sm-3 col-xs-7"> <!-- deets -->
+                <h3>Adam Valair</h3>
+                <p>
+                    GIS programmer<br />
+                    <br />
+                    <a href="mailto:hugh@geocology.ca">adam@geocology.ca</a><br />
+                </p>
+            </div> <!-- deets -->
+            <div class="col-md-7 col-sm-6 col-xs-12"> <!-- bio -->
+                <p>Adam originally hails from Northern British Columbia and now splits his time between Vancouver and South America.  He is fluent in French and Spanish but his Pig Latin is rusty.</p>
+                <p>His academic background is in Geography, Computer Science, and GIS.</p>
+                <p>For work, Adam loves writing programs, especially ones that are geospatial-related. For fun, Adam enjoys sampling hot sauces of the world in search of the hottest sauce on the planet.  So far he has managed to keep a few taste buds intact.</p>
             </div> <!-- bio -->
         </div>
  <!--
