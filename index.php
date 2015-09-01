@@ -224,32 +224,6 @@
                 <p>For work, Adam loves writing programs, especially ones that are geospatial-related. For fun, Adam enjoys sampling hot sauces of the world in search of the hottest sauce on the planet.  So far he has managed to keep a few taste buds intact.</p>
             </div> <!-- bio -->
         </div>
- <!--
-            <div class="col-md-6 col-sm-12 ">
-                <div class="row">
-                    <div class="meta col-md-6 col-sm-12">
-                        <div class="row">
-                            <div class="col-md-12 col-xs-6">
-                                <img class='img-responsive' src="<?php bloginfo('template_url'); ?>/images/janeBarnacles.jpg" />
-                            </div>
-                            <div class="col-md-12 col-xs-6">
-                                <h3>Jane Boles</h3>
-                                human geographer<br />
-                                <br />
-                                <a href="mailto:jane@geocology.ca">jane@geocology.ca</a><br />
-                                <a href="https://twitter.com/bolesfin">@bolesfin</a><br />
-                                604.603.6764
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <p>Jane works with forest dependent communities on climate change and participatory natural resource governance.</p>
-                        <p>For the last several years she has worked in the Congo basin leveraging REDD and other carbon programs towards climate change mitigation/adaptation and livelihood enhancement.</p>
-                        <p>Jane studied Geography and Political Science at Concordia University, and is endlessly grateful to do work that involves good measures of reading, writing, talking, and stomping around in the muck.</p>
-                    </div>
-                </div>
-            </div>
--->
         <div class="row">
             <div class="col-md-12" id="location">
                 <h2>where we are</h2>
