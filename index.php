@@ -219,7 +219,7 @@
                 </p>
             </div> <!-- deets -->
             <div class="col-md-7 col-sm-6 col-xs-12"> <!-- bio -->
-                <p>Adam originally hails from Northern British Columbia and now splits his time between Vancouver and South America.  He is fluent in French and Spanish but his Pig Latin is rusty.</p>
+                <p>Adam originally hails from Northern British Columbia but now spends most of his time in Vancouver.  He is fluent in French and Spanish but his Pig Latin is rusty.</p>
                 <p>His academic background is in Geography, Computer Science, and GIS.</p>
                 <p>For work, Adam loves writing programs, especially ones that are geospatial-related. For fun, Adam enjoys sampling hot sauces of the world in search of the hottest sauce on the planet.  So far he has managed to keep a few taste buds intact.</p>
             </div> <!-- bio -->
