@@ -58,6 +58,7 @@ p {
 
 a,
 #phoneNumber,
+#address,
 span.navLink {
     color: #b58155
 }
@@ -82,12 +83,12 @@ body,
 #title #research,
 h1, h2, h3 {
     font-family:
-    'PT Sans',
-    'Segoe UI Light',
-    'Helvetica Neue',
-    'Helvetica',
-    arial,
-    sans-serif;
+            'PT Sans',
+            'Segoe UI Light',
+            'Helvetica Neue',
+            'Helvetica',
+            arial,
+            sans-serif;
 }
 
 #title #research,

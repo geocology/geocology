@@ -1,6 +1,4 @@
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/*.iws
+.idea/
 .htaccess
 .htpasswd
 
