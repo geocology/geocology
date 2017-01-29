@@ -151,7 +151,7 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
-                        <a href="http://dogwoodinitiative.org" title="link to the Dogwood Initiative website">
+                        <a href="https://dogwoodbc.ca" title="link to the Dogwood Initiative website">
                             <img class="img-responsive partnerLogo" alt="Dogwood Initiative logo"  src="<?php bloginfo('template_url'); ?>/images/dogwood150x74.png" />
                         </a>
                     </div>
