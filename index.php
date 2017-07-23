@@ -6,6 +6,15 @@
             </div><!-- contactNav -->
         </div><!-- .row -->
         <div class="row">
+            <div class="col-md-12" id="closed-for-business">
+                <h1>Geocology is dead</h1>
+                <h2>Long live Geocology!</h2>
+                <p>As of January 2017, we're no longer taking on new projects under the Geocology Research banner. But don't worry! Hugh and Adam are still busy helping organizations with geo and coding stuff. Get in touch:</p>
+                <p><strong>Hugh</strong> - <a href="http://essa.com/">ESSA Technologies</a> - <a href="mailto:hstimson@essa.com">hstimson@essa.com</a></p>
+                <p><strong>Adam</strong> - <a href="http://cedarbox.ca/">CedarBox Ideas</a> - <a href="adam@cedarbox.ca">adam@cedarbox.ca</a></p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-12" id="featuredproject">
                 <h1>featured project</h1>
             </div>
@@ -197,7 +206,6 @@
                 <p>
                     Spatial developer<br />
                     <a href="mailto:hugh@geocology.ca">hugh@geocology.ca</a><br />
-                    <a href="http://twitter.com/hughstimson">@hughstimson</a><br />
                     604.440.1989<br />
                 </p>
             </div> <!-- deets -->
@@ -230,7 +238,7 @@
             </div>
             <div class="col-sm-3">
                 <p>
-                    Lovely Kitsilano in majestic Vancouver.
+                    East Vancouver.
                 </p>
                 <p>
                     <a href="https://www.google.ca/maps/place/1682+W+7th+Ave/@49.265308,-123.1426192,17z/data=!3m1!4b1!4m2!3m1!1s0x548673b7fd86215f:0x955cb7395d777cba">
