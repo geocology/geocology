@@ -11,7 +11,7 @@
                 <h2>Long live Geocology!</h2>
                 <p>As of January 2017, we're no longer taking on new projects under the Geocology Research banner. But don't worry! Hugh and Adam are still busy helping organizations with geo and coding stuff. Get in touch:</p>
                 <p><strong>Hugh</strong> - <a href="http://essa.com/">ESSA Technologies</a> - <a href="mailto:hstimson@essa.com">hstimson@essa.com</a></p>
-                <p><strong>Adam</strong> - <a href="http://cedarbox.ca/">CedarBox Ideas</a> - <a href="adam@cedarbox.ca">adam@cedarbox.ca</a></p>
+                <p><strong>Adam</strong> - <a href="adam@bitspatial.com">adam@bitspatial.com</a></p>
             </div>
         </div>
         <div class="row">
