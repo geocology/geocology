@@ -7,9 +7,8 @@
         </div><!-- .row -->
         <div class="row">
             <div class="col-md-12" id="closed-for-business">
-                <h1>Geocology is dead</h1>
-                <h2>Long live Geocology!</h2>
-                <p>As of January 2017, we're no longer taking on new projects under the Geocology Research banner. But don't worry! Hugh and Adam are still busy helping organizations with geo and coding stuff. Get in touch:</p>
+                <h1>Geocology has retired</h1>
+                <p>As of January 2017, we're no longer taking on new projects under the Geocology Research banner. But Hugh and Adam are still busy helping organizations with geo and coding stuff. Get in touch:</p>
                 <p><strong>Hugh</strong> - <a href="http://essa.com/">ESSA Technologies</a> - <a href="mailto:hstimson@essa.com">hstimson@essa.com</a></p>
                 <p><strong>Adam</strong> - <a href="adam@bitspatial.com">adam@bitspatial.com</a></p>
             </div>
@@ -231,29 +230,6 @@
                 <p>His academic background is in Geography, Computer Science, and GIS.</p>
                 <p>For work, Adam loves writing programs, especially ones that are geospatial-related. For fun, Adam enjoys sampling hot sauces of the world in search of the hottest sauce on the planet.  So far he has managed to keep a few taste buds intact.</p>
             </div> <!-- bio -->
-        </div>
-        <div class="row">
-            <div class="col-md-12" id="location">
-                <h2>where we are</h2>
-            </div>
-            <div class="col-sm-3">
-                <p>
-                    East Vancouver.
-                </p>
-                <p>
-                    <a href="https://www.google.ca/maps/place/1682+W+7th+Ave/@49.265308,-123.1426192,17z/data=!3m1!4b1!4m2!3m1!1s0x548673b7fd86215f:0x955cb7395d777cba">
-                        1117 Keefer St<br />
-                        Vancouver BC Canada<br />
-                        V6A1Z2
-                    </a>
-                </p>
-                <p>
-                    But it sure would be nice to get back out into the field one of these days.
-                </p>
-            </div>
-            <div class="col-sm-9">
-                <iframe width='100%' height='400px' frameBorder='0' src='https://a.tiles.mapbox.com/v3/hughstimson.gdnn42on.html?secure=1#12/49.27321610028051/-123.13697528076172'></iframe>
-            </div>
         </div>
         <div class="row">
             <div class="col-md-12 navLinks">

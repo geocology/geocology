@@ -35,6 +35,4 @@
                     <a href="mailto:hugh@geocology.ca">hugh@geocology.ca</a>
                     <span class="contactDetailBullet">&bull;</span>
                     <span id="phoneNumber">604-440-1989</span>
-                    <span class="contactDetailBullet">&bull;</span>
-                    <span id="address">1117 Keefer St, Vancouver BC V6A 1Z2</span>
                 </div>
