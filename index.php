@@ -179,8 +179,8 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
-                        <a href="//www.placespeak.com" title="link to the PlaceSpeak online consultation website">
-                            <img class="img-responsive partnerLogo" alt="PlaceSpeak logo" src="<?php bloginfo('template_url'); ?>/images/placespeak150x74.png" />
+                        <a href="http://echotrack.com" title="link to the Echotrack Inc website">
+                            <img class="img-responsive partnerLogo" src="<?php bloginfo('template_url'); ?>/images/echotrack150x74.png" />
                         </a>
                     </div>
                 </div>
