@@ -164,7 +164,7 @@
                         </a>
                     </div>
                     <div class="col-xs-6 col-sm-4">
-                        <a href="http://www.elizabethmay.ca" title="link to the Elizabeth May campaign website">
+                        <a href="http://elizabethmaymp.ca/" title="link to the Elizabeth May website">
                             <img class="img-responsive partnerLogo" alt="Green Party of Canada logo" src="<?php bloginfo('template_url'); ?>/images/gpc150x74.png" />
                         </a>
                     </div>
