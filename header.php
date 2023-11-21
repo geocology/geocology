@@ -33,6 +33,4 @@
             <div id="contactNav">
                 <div class="col-md-7 contactDetail">
                     <a href="mailto:hugh@geocology.ca">hugh@geocology.ca</a>
-                    <span class="contactDetailBullet">&bull;</span>
-                    <span id="phoneNumber">604-440-1989</span>
                 </div>
